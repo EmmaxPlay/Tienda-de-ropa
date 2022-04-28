@@ -1,3 +1,9 @@
+:root{
+    --primario: #612066;
+
+    --font:'Roboto', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 html{
     box-sizing: border-box;
     font-size: 62.5%;
@@ -6,4 +12,28 @@ html{
     box-sizing: inherit;
     margin: 0;
     padding: 0;
+}
+/**Globales**/
+.container{
+    width: 85%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+a{
+    font-family: var(--font);
+}
+/**Header**/
+header {
+    background-color: var(--primario);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    padding: 0.4rem;
 }
