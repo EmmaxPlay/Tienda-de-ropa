@@ -13,11 +13,23 @@ html{
     margin: 0;
     padding: 0;
 }
+img{
+    width: auto;
+}
 /**Globales**/
 .container{
     width: 85%;
     max-width: 120rem;
     margin: 0 auto;
+}
+.col-x3{
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit, 
+        minmax(
+         300px,
+         1fr));
+    gap: 2rem;
 }
 a{
     font-family: var(--font);
@@ -37,3 +49,4 @@ nav{
     color: white;
     padding: 0.4rem;
 }
+
