@@ -2,8 +2,10 @@
     --primario: #612066;
 
     --font:'Roboto', sans-serif;
+    --font-2: 'Montserrat', sans-serif;
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 html{
     box-sizing: border-box;
     font-size: 62.5%;
@@ -13,11 +15,28 @@ html{
     margin: 0;
     padding: 0;
 }
+img{
+    width: auto;
+}
 /**Globales**/
+h1, h2, h3, h4{
+    font-family: var(--font-2);
+    font-weight: 200;
+}
 .container{
     width: 85%;
     max-width: 120rem;
     margin: 0 auto;
+}
+.col-x3{
+    display: grid;
+    gap:2rem;
+    grid-template-columns: repeat(
+        auto-fit, minmax(15rem, 1fr)
+    );
+}
+.center{
+    text-align: center;
 }
 a{
     font-family: var(--font);
@@ -36,4 +55,7 @@ nav{
     text-decoration: none;
     color: white;
     padding: 0.4rem;
+}
+.catalogo img{
+    width: 100%;
 }
