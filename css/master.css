@@ -53,13 +53,14 @@ blue{
     text-align: center;
 }
 a{
-    font-family: var(--font);
+    font-family: var(--font-2);
+    font-weight: 200;
 }
 /**Header**/
 header {
     background-color: var(--primario);
 }
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
