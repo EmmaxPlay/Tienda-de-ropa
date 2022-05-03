@@ -1,5 +1,7 @@
 :root{
-    --primario: #612066;
+    --primario: #c42d2c;
+    --secundario: #141516;
+    --fondo: #efecea;
 
     --font:'Roboto', sans-serif;
     --font-2: 'Montserrat', sans-serif;
@@ -15,6 +17,9 @@ html{
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: var(--fondo);
+}
 img{
     width: auto;
 }
@@ -22,13 +27,22 @@ img{
 h1, h2, h3, h4{
     font-family: var(--font-2);
     font-weight: 200;
+    color: var(--secundario);
 }
 h2{
     font-size: 3rem;
     font-family: var(--font-2);
 }
-blue{
-    color: rgba(23, 20, 213, 0.2);
+p{
+    font-size: 2rem;
+    font-family: var(--font-2);
+    font-weight: 200;
+    color: var(--secundario);
+}
+.title{
+    font-family: var(--font-2);
+    font-weight: 800;
+    font-size: 2.4rem;
 }
 .container{
     width: 85%;
@@ -92,4 +106,8 @@ nav {
 .vermas a{
     font-size: 2rem;
     padding-left: 1rem;
+}
+.sucursal{
+    display: flex;
+    flex-direction: column;
 }
