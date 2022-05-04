@@ -1,13 +1,13 @@
 :root{
     --primario: #c42d2c;
     --secundario: #141516;
-    --fondo: #efecea;
+    --fondo: #fff;
 
     --font:'Roboto', sans-serif;
     --font-2: 'Montserrat', sans-serif;
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap');
 html{
     box-sizing: border-box;
     font-size: 62.5%;
@@ -47,7 +47,7 @@ p{
 
 }
 .container{
-    width: 85%;
+    width: 90%;
     max-width: 120rem;
     margin: 0 auto;
 }
@@ -55,7 +55,7 @@ p{
     display: grid;
     gap:2rem;
     grid-template-columns: repeat(
-        auto-fit, minmax(15rem, 1fr)
+        auto-fit, minmax(20rem, 1fr)
     );
 }
 .col-x4{
@@ -95,11 +95,14 @@ nav {
     width: 100%;
 }
 .tarjeta-titulo{
-    font-size: 2.5rem;
+    font-size: 1.8rem;
+    font-weight: 100;
     font-family: var(--font-2);
 }
 .tarjeta-precio{
     font-size: 3rem;
+    font-weight: 100;
+    color: var(--primario);
 }
 .vermas{
     display: flex;
