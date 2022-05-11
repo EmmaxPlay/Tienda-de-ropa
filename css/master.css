@@ -55,11 +55,12 @@ p {
   width: 90%;
   max-width: 135rem;
   margin: 0 auto;
+  
 }
 .col-x3 {
   display: grid;
-  gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  
 }
 .col-x4 {
   display: grid;
@@ -115,7 +116,14 @@ nav {
 .catalogo img {
   width: 100%;
 }
-/**Area niña**/
+/**Tarjetas**/
+.tarjeta{
+    cursor: pointer;
+}
+.tarjeta:hover{
+    opacity: 0.8;
+    transform: scale(1.10);
+}
 .tarjeta-imagen img {
   width: 100%;
 }
