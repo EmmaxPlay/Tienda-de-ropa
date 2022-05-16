@@ -405,5 +405,7 @@ section {
   background: #612066;
   padding: 20px;
   text-align: center;
+}
+.footer p{
   color: white;
 }
