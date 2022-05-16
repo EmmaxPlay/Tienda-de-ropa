@@ -385,3 +385,10 @@ section {
   text-align: center;
   color: white;
 }
+.footer p{
+  color: white;
+}
+.contact{
+  background-image: url(https://images.pexels.com/photos/1261169/pexels-photo-1261169.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  height: 85vh;
+}
