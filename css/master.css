@@ -87,32 +87,54 @@ a {
   font-weight: 200;
 }
 /**Header**/
-.logo a {
-  display: flex;
-  align-items: center;
-  font-size: 4rem;
-  color: #fff;
-  text-decoration: none;
-}
-.logo a img {
-  width: 10rem;
-}
 header {
-  background-color: var(--primario);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 2px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
 }
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+
+header .logo {
+    font-weight: bolder;
+    font-size: 25px;
+    color: #000;
 }
-.nav-links a {
-  font-size: 2rem;
-  text-decoration: none;
-  color: white;
-  padding: 0.4rem;
+
+header .navbar ul {
+    list-style: none;
 }
-.catalogo img {
-  width: 100%;
+
+header .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+header .navbar ul li a {
+    font-size: 20px;
+    padding: 20px;
+    color: #000;
+    display: block;
+}
+
+header .navbar ul li a:hover {
+    background: #333;
+    color: #fff;
+}
+
+.logo {
+    height: 50px;
+}
+
+.logo img {
+    width: auto;
+    height: 50px;
 }
 /**Tarjetas**/
 .tarjeta {
