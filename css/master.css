@@ -88,7 +88,7 @@ a {
 }
 /**Header**/
 header {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
@@ -123,6 +123,7 @@ header .navbar ul li a {
     display: block;
 }
 
+
 header .navbar ul li a:hover {
     background: #333;
     color: #fff;
@@ -136,6 +137,16 @@ header .navbar ul li a:hover {
     width: auto;
     height: 50px;
 }
+
+#logo2{
+    margin-left: -945px;
+    list-style: none;
+    font-size: 20px;
+    padding: 20px;
+    color: #000;
+    display: block;
+}
+
 /**Tarjetas**/
 .tarjeta {
   cursor: pointer;
