@@ -57,6 +57,8 @@ p {
   margin: 0 auto;
 }
 .col-x3 {
+  margin-top: 4rem;
+  margin-left: 12rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
@@ -66,6 +68,10 @@ p {
   grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
 }
 .categorias {
+  display: grid;
+  gap: 2rem;
+}
+.categorias2 {
   display: grid;
   gap: 2rem;
 }
@@ -420,3 +426,61 @@ section {
 .footer p{
   color: white;
 }
+
+.categorias2 a{
+  padding-left: 5.8rem;
+  background-color: rgb(216, 213, 219);
+  margin: 25px 0px;
+  width: 40%;
+  height: 50px;
+  text-align: center;
+}
+
+.categorias2 a:hover{
+  width: 40%;
+  background: rgb(242, 98, 98);
+}
+
+.contain{
+            width: 100%;
+            margin: auto;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+        .contain ul{
+            padding: 0px;
+            margin: 0px;
+        }
+
+
+        .contain ul li{
+            float:left;
+            list-style: none;
+            width:45.5%;
+            height:500px;
+            margin :20px 0px 20px 55px; 
+            border:2px solid blue;
+            box-sizing: border-box;
+        }
+        .contain ul li:hover{
+            opacity: 0.8;
+        }
+
+        .contain ul li .bottom{
+            width: 100%;
+            height:50px;
+            line-height: 50px;
+            background: blue;    
+            text-align: center;
+            color:white;
+            font-size: 20px;
+   
+}
+
+.tituloh3{
+            display: inline-block;
+            position: relative;
+            font-family: Courier, cursive;
+            font-size:  30px;
+            color: red;
+        }
