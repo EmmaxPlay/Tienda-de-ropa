@@ -145,7 +145,7 @@ header .navbar ul li a:hover {
 }
 
 #logo2{
-    margin-left: -945px;
+    margin-left: -840px;
     list-style: none;
     font-size: 20px;
     padding: 20px;
@@ -497,7 +497,6 @@ section {
 .footer p{
   color: white;
 }
-<<<<<<< HEAD
 
 .categorias3 a{
   padding-left: 5.8rem;
@@ -570,7 +569,6 @@ section {
             font-size:  30px;
             color: red;
         }
-=======
 .footer p{
   color: white;
 }
@@ -578,4 +576,3 @@ section {
   background-image: url(https://images.pexels.com/photos/1261169/pexels-photo-1261169.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
   height: 85vh;
 }
->>>>>>> main
