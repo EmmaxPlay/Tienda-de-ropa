@@ -67,7 +67,7 @@ p {
   gap: 2rem;
   grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
 }
-.categorias {
+.categorias3 {
   display: grid;
   gap: 2rem;
 }
@@ -425,6 +425,20 @@ section {
 }
 .footer p{
   color: white;
+}
+
+.categorias3 a{
+  padding-left: 5.8rem;
+  background-color: rgb(216, 213, 219);
+  margin: 24px 0px;
+  width: 70%;
+  height: 50px;
+  text-align: center;
+}
+
+.categorias3 a:hover{
+  width: 70%;
+  background: rgb(242, 98, 98);
 }
 
 .categorias2 a{
